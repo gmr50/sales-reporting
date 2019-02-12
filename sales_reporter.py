@@ -9,6 +9,7 @@ data = pd.read_csv(filename)
 totalSales = data["sales price"].sum()
 
 
+#adapted from Prof. Rosetti
 def month_lookup(month):
 	year_month={'01':'January','02':'February','03':'March','04':'April',
 	'05':'May','06':'June','07':'July','08':'August','09':'September','10':'October',
